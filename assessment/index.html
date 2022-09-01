@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <link rel="stylesheet" href="../styles/styles/index.css">
+    <link rel="stylesheet" href="disk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Yandex mail</title>
+</head>
+<body class="main-body bg-[#e5eaf1] pr-3.5 pl-5">
+    <nav class="flex justify-between w-full items-center px-2.5 " style="
+    height: 64px;
+    align-items: center;
+    padding-top: 5px;
+">
+        <div class="flex pt-3">
+        <div class="flex mr-8">
+            <a href="" title="Yandex" target="_blank">   
+                <img src="./logo.svg" alt="">
+            </a>
+            <a href="" title="Yandex360" target="_blank">
+                <img src="./a.svg" alt="">
+            </a>
+        </div>
+        <div class="bg-[rgba(107,135,175,0.15)] flex items-center h-8 rounded-2xl px-4" style="height: 36px;">
+            <input type="text" placeholder="Search" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-controls="suggest-result" maxlength="200" class="w-full" style="background: none; outline: none;">
+            <img src="./searchnew.svg" alt="">
+        </div>
+        </div>
+        <div>
+            <div class="flex items-center" style="margin-left: -6rem;">
+             <a class="flex text-center flex-col mr-2 ml-3.5 bg-[rgba(107,135,175,0.15)] block px-2 mt-1.5 rounded-xl" tabindex="0" role="button" href="index.html">
+                <img src="./mail.svg" alt="" class="scale">
+                <span style="margin-top: -2px;">Mail</span>
+                </a>
+            
+                <a class="flex text-center flex-col mr-2 ml-3.5 " tabindex="0" role="button" href="disk.html">
+                <img src="./disk.svg" alt="" class="scale">
+                <span>Disk</span>
+                </a>
+            
+                <a class="flex text-center flex-col mr-2 ml-3.5" tabindex="0" role="button" href="telemost.html">
+                <img src="./tel.svg" alt="" class="scale" style=" height: 48px;
+    width: 48px;
+">
+                <span>
+                Telemost
+                </span>
+                </a>
+                <a class="flex text-center flex-col mr-2 relative ml-3.5" tabindex="0" role="button">
+                    <img src="./backy.svg" alt="" class="scale" style="
+    height: 48px;
+    width: 48px;
+">
+                    <span class="absolute text-xl" style="color: #fff; font-family:sans-serif; top:12%; left:23%;">
+                    26
+                    </span>
+                    <span>Calender</span>
+                    </a>
+            <div class="relative">
+                <a class="flex text-center flex-col mr-2" tabindex="0" role="button">
+                <img src="./more.svg" alt="" class="scale">
+                <details>
+                    <summary>More</summary>
+                    <ul class="absolute flex justify-around py-4" style="width: 21rem;box-shadow: 0 4px 12px rgb(29 33 55 / 25%);
+                    border-radius: 16px; background-color: #fff;z-index: 111;top: 115%;right: 10%;">
+                        <li class="flex flex-col"><img src="./more1.svg" alt="" class="scale">
+                        <span>Notes</span>
+                        </li>
+                        <li class="flex flex-col"><img src="./more2.svg" alt="" class="scale">
+                        <span>Contact</span>
+                        </li>
+                        <li class="flex flex-col"><img src="./more3.svg" alt="" width="48px" class="scale">
+                        <span>Messanger</span>
+                        </li>
+                    </ul>
+                </details>
+                </a>
+            </div>   
+            </div>
+            </div> 
+
+            <div class="flex grow-0 items-center relative">
+                <details>
+               <summary><i class="fa fa-cog mr-5 butset block p-1.5 opacity-40" style="font-size: 25px;"></i></summary>
+               <div class="bg-[rgb(255,255,255)] p-3 absolute z-10 rounded-xl" style="width:28rem; right:-9%; top: 123%;">
+               <div class="flex justify-between">
+                <img src="./pop.svg" alt="" width="24" class="absolute" style="top: -5%;left:52%">
+                <h3>Settings</h3>     
+                <p class="opacity-30">All settings <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                </div>
+                <div class="set w-4/12 p-2 rounded-xl mt-3 mb-4 relative h-16">
+                   <span class="text-xs">Manage <br>subscriptions </span>
+                    <span class="absolute bg-[#ff0000] rounded-xl" style="top: -18%;right:2%;color: #fff;padding-inline: 3px;">New</span>
+                </div>
+                <div>
+                    <p class="pt-2 pb-3">Display emails</p>
+                    <ul class="flex mb-4">
+                        <a href=""><li class="mr-3 box-1 rounded-xl"><img src="./dis1.svg" alt="" class=""> </li></a>
+                        <a href=""><li class="mr-3 box-2 rounded-xl"><img src="./dis2.svg" alt=""> </li></a>
+                        <a href=""><li class="mr-3 box-2 rounded-xl"><img src="./dis3.svg" alt=""> </li></a>
+                    </ul>
+                </div>
+                    <ul class="grid" style="grid-template-columns: 1fr 1fr;">
+                        <a href=""><input type="checkbox" checked="" class="accent-[#ffdc60]"><span class="pl-1.5"> Large font</span></a>
+                        <a href=""><input type="checkbox" class="accent-[#ffdc60]"><span class="pl-1.5">Compact left column</span></a>
+                        <a href=""><input type="checkbox" class="accent-[#ffdc60]"><span class="pl-1.5">Group messages by threads</span></a>
+                        <a href=""><input type="checkbox" class="accent-[#ffdc60]"><span class="pl-1.5">Compact message list</span></a>
+                    </ul>
+                <div class="flex justify-between">
+                    <p>Theme</p>
+                    <p class="opacity-30"> Show all themes</p>
+                </div>
+                <div>
+                    <div class="flex gap-5 items-center">
+                        <span><iconify-icon icon="bi:toggle-on" style="color: #ffdc60; font-size: 35px;"></iconify-icon></span>
+                    <p style="transform: translateY(-3px)">Play animated backgrounds</p>
+                    </div>
+                    <ul class="flex w-full">
+                        <li class="relative"><img src="./ins1.jpg" alt="" style="padding-right: 8px; border-radius:16px;" class="inline">
+                            <!-- <img src="./check.png" alt="" class="absol"> -->
+                        </li>
+                        <li><img src="./ins2.jpg" alt="" style="padding-right: 8px; border-radius:16px;" class="inline"></li>
+                        <li><img src="./ins3.jpg" alt="" style="padding-right: 8px; border-radius:16px;" class="inline"></li>
+                    </ul>
+                </div>
+            </div>
+                </details>
+            
+                <p class="mr-1.5">abdulbasiteniola</p>
+                <img src="./anyony.png" alt="">
+            </div>
+          
+</nav>  
+<main class="w-full bg-slate-50 flex grow rounded-2xl mt-2">
+    <section class="w-3/12 bg-[hsl(0deg 0% 100% / 60%)] pt-5 pl-5 pr-5">
+     <div>
+     <div class="flex justify-between mb-2">
+        <div class="flex justify-center bg-[#ffdb4d] w-full h-9 items-center rounded-xl but">
+            <img src="./pen.svg" alt="" width="16px" height="16px" class="mr-3">
+            <span>Compose</span>
+     </div>
+     <button class="bg-[#ffdb4d] h-9 ml-2 w-12 rounded-xl but">
+        <img src="./reset.svg" alt="" width="16px" height="16px" class="inline">
+     </button>
+    </div>
+     <ul class="beside">
+      <a href="index.html" class="block bg-[rgba(58,66,75,0.1)] rounded-lg board" >
+        <li class="flex pl-4">
+           <img src="./inbox.svg" alt="" width="16px" height="16px" class="mr-2"> 
+           <span>Inbox</span>
+        </li>
+      </a>
+      <a href="sub.html" class="block board">
+        <li class="flex pl-4">
+            <img src="./sub.svg" alt="" width="16px" height="16px" class="mr-2">
+            <span>Subscriptions</span>
+        </li>
+    </a>
+        <a href="social.html" class="block board">
+        <li class="flex pl-4">
+            <img src="./social.svg" alt="" width="16px" height="16px" class="mr-2">
+            <span>Social</span>
+        </li>
+    </a>
+        <a href="attach.html" class="block baord">
+        <li class="flex pl-4">
+            <img src="./with.svg" alt="" width="16px" height="16px" class="mr-2">
+            <span>With attachments</span>
+        </li>
+    </a>
+        <a href="sent.html" class="block board">
+        <li class="flex pl-4 justify-between items-baseline show">
+            <div class="flex">
+            <img src="./folder.svg" alt="" width="16px" height="16px" class="mr-2">
+            <span>My folders</span>
+            </div>
+            <div>
+            <img src="./plus.svg" alt="" class="mr-3 opacity-50">
+            </div>
+        </li>
+    </a>
+        <a href="trash.html" class="block board">
+        <li class="flex pl-4">
+            <img src="./sent.svg" alt="" width="16px" height="16px" class="mr-2">
+            <span>Sent</span>
+        </li>
+    </a>
+        <a href="spam.html" class="block board">
+        <li class="flex pl-4">
+            <img src="./trash.svg" alt="" width="16px" height="16px" class="mr-2">
+            <span>Trash</span>
+        </li>
+    </a>
+        <a href="draft.html" class="block baord">
+        <li class="flex pl-4">
+            <img src="./envelope.svg" alt="" width="16px" height="16px" class="mr-2">
+            <span>Spam</span>
+        </li>
+    </a>
+        <a href="" class="block board">
+        <li class="flex pl-4">
+            <img src="./pencil.svg" alt="" width="16px" height="16px" class="mr-2">
+            <span>Drafts</span>
+        </li>
+    </a>
+     </ul>
+    </div>
+    <div class="flex w-full">
+        <button class="w-3/6 bg-[#3a424b12] h-7 rounded-lg" title="flagged">
+            <img src="./thread.svg" alt="" width="16" height="16" class="inline">
+        </button>
+        <button class="w-3/6 bg-[#3a424b12] h-7 ml-2 rounded-lg">
+            <img src="./dot.svg" alt="" width="16" height="16" class="inline">
+        </button>
+    </div>
+    <div class="ml-4 mt-2">
+        <div class="flex">
+            <img src="./item.svg" alt="" width="16" height="16" class="mr-2 pb-1">
+            <span>Add a label</span>
+        </div>
+        <div class="flex">
+            <img src="./and.svg" alt="" width="16" height="16" class="mr-2">
+            <span>Add an email account</span>
+        </div>
+    </div>
+    </section>
+    <section class="w-3/4 bg-[#fff]">
+        <div class="w-full opaque min">
+            <ul style=" padding:10px 10px 0 19px" class="flex justify-between opacity-60 keep">
+                <li class="flex items-center">
+                    <input type="checkbox">
+                </li>
+                <li class="flex items-center">
+                    <img src="./for.svg" alt="">
+                    <span>Forward</span>
+                </li>
+                <li class="flex items-center">
+                    <img src="./trash.svg" alt="" width="16" class="mr-0.5">
+                    <span>Delete</span>
+                </li>
+                <li class="flex items-center">
+                    <img src="./envelope.svg" alt="" width="16" class="mr-0.5">
+                    <span>Spam</span>
+                </li>
+                <li class="flex items-center">
+                    <img src="./envelopes.svg" alt="" width="16" height="16">
+                    <span class="ml-0.5">Read</span>
+                </li>
+                <li class="flex items-center">
+                    <img src="./IcSharpUnsubscribe.svg" alt="" width="18" height="18">
+                    <span>Unsubscribe</span>
+                </li>
+                <li class="flex items-center">
+                    <iconify-icon icon="akar-icons:more-horizontal" style="font-size: 20px;"></iconify-icon>
+                </li>
+                <li class="flex items-center swish opacity-0">
+                    <iconify-icon icon="icon-park-twotone:setting"></iconify-icon>
+                </li>
+                <li class="flex items-center">
+                </li>
+                <li class="flex items-center">
+                </li>
+                <li class="flex items-center">
+                </li>
+                <li class="flex items-center">
+                </li>
+                <li class="flex items-center">
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <h1 class="font-bold text-center pt-20" style="font-size: 1.5rem; ">No messages in Inbox</h1>
+        <div class="h-72"></div>
+        <hr>
+        <div class="pt-5 pl-5 pr-5 h-16 flex">
+            <div>
+                <a href="" class="change opacity-50"><span class="pr-2.5">Light version</span></a>
+                <a href="" class="change opacity-50"><span>Yandex Mail log</span></a>
+            </div>
+        <ul class="flex grow justify-end gap-5 items-baseline">
+            <li><a href="" class="opacity-50" >Careers</a></li>
+            <li><a href="" class="opacity-50">Help and Support</a></li>
+            <li><a href="" class="opacity-50">Advertising</a></li>
+            <li style="opacity: 0.5;">© 2001—2022,<a href="">Yandex</a></li>
+            <li><a href="" class=""><img src="./lang-en.gif" alt=""></a></li>
+            <li></li>
+        </ul>
+    </div>
+    </section>
+    <div class="grow bg-[#fafafa] rounded-r-2xl" style="border-left:1px solid rgb(0 0 0 / 15%) ; width: 5%;">
+        <div class="flex flex-col pt-5 items-center">
+            <button class="p-0.5 bg-[#fff] rounded-full shh">
+                <img src="./toggle.svg" alt="" width="12">
+                </button>
+                
+                
+            <!--
+                <details>
+                <summary></summary>
+                <div class="absolute asides w-80" style="right: 15%;z-index: 5 ;">
+                    <div class="flex mt-1.5 mx-2.5">
+                    <iconify-icon icon="clarity:caret-line" rotate="90deg"></iconify-icon>
+                    <p class="font-bold text-base ml-1.5 ">Friday,26 August</p>
+                    </div>
+                    <div class="asideback pb-2">
+                        <div class="flex justify-between items-center space">
+                        <div class="flex"><span class="text-sm">Storage space</span><span class="text-sm ml-2"> 0.01 of 5Gb</span></div>
+                        <div class="w-9" style="background-color:green ; height: 2px;"></div>
+                        <iconify-icon icon="clarity:caret-line"></iconify-icon>
+                        </div>
+                        <a href="" class="indexaside "><div class="relative pb-3">
+                            <p class="font-medium">Use 5Gb for files and email <br> attachment <iconify-icon icon="clarity:caret-line" rotate="90deg" style="transform: translateY(3px);"></iconify-icon ></p>
+                            <img src="./indexaside.png" alt="" width="70px" class="absolute" style="bottom: -14%;left:82%">
+                        </div></a>
+                        <div>
+                            
+                        </div>
+                    </a>
+                    </div>
+                    <div class="asideback pb-1">
+                    <a href=""><div class="flex">
+                        <img src="./tel.svg" alt="" class="mr-2" width="25" >
+                        <span class="font-bold">Telemost</span></div>
+                        <a href="">
+                            <button class="bg-[#ebebeb] flex justify-between mx-3 mb-3 px-3 mx-auto rounded-lg h-9 items-center">
+                                <div class="flex">
+                                <img src="./plusay.svg" alt="">
+                                <span class="mx-2.5 font-bold">Create video meeting</span>
+                                </div>
+                            </button>
+                        </a>
+                    
+                    </a>
+                </div>
+                <div class="asideback">
+                    <ul class="min">
+                        <li class="flex justify-between py-1.5 px-3">
+                            <div class="flex">
+                            <img src="./diskufo.svg" alt="">
+                           <span class="ml-2">Yandex.Disk</span>
+                            </div>
+                           <img src="./plusay.svg" alt="">
+                        </li>
+                        <li class="flex py-1.5 ml-3 justify-between">
+                            <div class="flex">
+                                <img src="./jpeg.svg" alt="">
+                                  <span class="ml-1.5 swish">Bears</span>
+                                </div>
+                            <img src="./download.svg" alt="" class="mr-1.5 opacity-50">
+                        </li>
+                        <li class="flex py-1.5 ml-3 justify-between">
+                            <div class="flex">
+                                <img src="./jpeg.svg" alt="">
+                                  <span class="ml-1.5 swish">Winter</span>
+                                </div>
+                            <img src="./download.svg" alt="" class="mr-1.5 opacity-50">
+                        </li>
+                        <li class="flex py-1.5 ml-3 justify-between">
+                            <div class="flex">
+                                <img src="./jpeg.svg" alt="">
+                                  <span class="ml-1.5 swish">St.Petersburg</span>
+                                </div>
+                           <img src="./download.svg" alt="" class="mr-1.5 opacity-50">
+                        </li>
+                        <li class="flex py-1.5 ml-3 justify-between">
+                            <div class="flex">
+                                <img src="./jpeg.svg" alt="">
+                                  <span class="ml-1.5 swish">Sea</span>
+                                </div>
+                           <img src="./download.svg" alt="" class="mr-1.5 opacity-50">
+                        </li>
+                        <a href=""><li class="flex py-1.5 ml-3 justify-between">
+                            <div class="flex">
+                            <img src="./jpeg.svg" alt="">
+                              <span class="ml-1.5 swish">Moscow</span>
+                            </div>
+                            <img src="./download.svg" alt="" class="mr-1.5 opacity-50">
+                        </li>
+                    </a>
+                    </ul>
+                </div>
+                <div class="">
+                <div class="flex justify-between py-1.5 px-3">
+                    <div class="flex">
+                        <img src="./front4.svg" alt="" width="20">
+                        <span class="ml-2">Yandex.Disk</span>
+                    </div>
+                        <img src="./plusay.svg" alt="">
+                    </div>
+                    <div>
+                    <a href="">
+                        <span class="text-ms p-3 block text-center">How Yandex.Notes works</span>
+                    </a>
+                    </div>
+                    
+                
+                </div>
+            </details>
+            </div> -->
+            
+            
+            <span class="font-bold text-3xl">26</span>
+            <span>Fri</span>
+        </div>
+        <div class="flex flex-col">
+            <div class="w-4/5 m-auto bg-[#ebebeb] h-2 border-l-4 border-[#3BC46D] rounded-2xl"></div>
+            <span class="text-center">0.01GB</span>
+        </div>
+        <div class="shh flex justify-center py-2 relative min">
+            <img src="./tel.svg" alt="" width="27" class="imgg2" >
+            <img class="inline hidden absolute kept" src="./plus.png" alt="" width="10px" style="left: 56%;top: 59%;" >
+        </div>
+        <div class="">
+            <ul class="flex flex-col items-center shh py-3">
+                <a href="" class="relative min">
+                    <li><img src="./front1.svg" alt="" width="25" class="inline imgg opaque">
+                        <img src="./plus.png" alt="" width="10px" style="left: 56%;top: 59%;" class="inline  absolute hidden">
+                    </li>
+                </a>
+                <a href="" class="relative min">
+                    <li>
+                        <img src="./front2.svg" alt="" width="25"  class="inline imgg opaque">
+                        <img src="./plus.png" alt="" width="10px" style="left: 56%;top: 59%;" class="inline absolute hidden kept">
+                    </li>
+                </a>
+                <a href="" class="relative min">
+                    <li>
+                        <img src="./front3.svg" alt="" width="25" class="inline imgg opaque">
+                        <img src="./plus.png" alt="" width="10px" style="left: 56%;top: 59%;" class="inline absolute kept hidden">
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class=" flex justify-center py-2 relative shh">
+            <a href=""class="oh-boy min">
+                <img src="front4.svg" alt="" width="20px" class="imgg opaque">
+                <img src="./plus.png" alt="" width="10px" style="left: 56%;top: 59%;" class="absolute hidden kept">
+            </a>
+        </div>
+    </div>
+    
+</main>    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    
+</body>
+</html>

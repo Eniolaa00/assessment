@@ -1,0 +1,95 @@
+.disk{
+    box-shadow: 0 8px 14px rgb(34 34 34 / 5%);
+}
+.section1{
+    background-color: hsl(0deg 0% 100% / 60%);
+}
+.blocks{
+    margin-top: 10px;
+    display: block;
+    color: #222;
+    border-radius: 12px;
+    background: -webkit-linear-gradient(top,#ffdc60,#fdefb2);
+    background: linear-gradient(180deg,#ffdc60,#fdefb2);
+    padding: 12px;
+    margin-bottom: 20px;
+}
+.block2{
+    background: #edc124;
+    height: 8px;
+    border-left: 2px solid #fff;
+    border-radius: 4px;
+    /* margin: 0 20px 20px; */
+    
+}
+.board{
+    border:2px solid transparent;
+}
+.bodyy{
+    background-image: url(./css-background-image-linear-gradient.webp);
+    background-size: cover;
+}
+.fonts:hover{
+    text-decoration: underline 2px;
+    cursor: pointer;
+}
+.white{
+    color: #fff;
+}
+.inup{
+    outline: 1px solid #ccc;
+}
+.inup:focus{
+    outline:#ffdc60 2px solid;
+}
+.pics{
+    padding-block: 12px;
+}
+.pics:hover{
+    background: rgb(247 248 250);
+    display: block;
+    border-radius: 8px;
+}
+.color{
+    color: rgb(133 136 158);
+}
+.but{
+    box-shadow: 0 8px 14px rgb(255 204 0 / 25%);
+}
+.button2{
+    height: 36px;
+    background: transparent;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 1px 0 1px rgb(0 0 0 / 5%), 0 4px 6px 0 rgb(0 0 0 / 5%);
+}
+.buttons{
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid #000900;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 1px 0 1px rgb(0 0 0 / 5%), 0 4px 6px 0 rgb(0 0 0 / 5%);
+}
+.buttonss{
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 1px 0 1px rgb(0 0 0 / 5%), 0 4px 6px 0 rgb(0 0 0 / 5%);
+}
+.button3{
+    background: transparent;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 1px 0 1px rgb(0 0 0 / 5%), 0 4px 6px 0 rgb(0 0 0 / 5%);
+}
+.pad{
+    box-shadow: 0 0 42px rgb(147 156 176 / 16%), 0 0 5.25905px rgb(0 0 0 / 4%);
+    border-radius: 16px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.butt{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 4px;
+}
+.butt1{
+   border: 1px solid #d8dce6;
+   border-radius: 50%;
+}
+

@@ -1,0 +1,24 @@
+body{
+    background-image: url(./tele.jpg);
+    background-position: 48% 25%;
+}
+.mid{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 50px;
+    color: #fff;
+}
+button{
+    border-radius: 24px 8px 8px 24px;
+    backdrop-filter: blur(44px);
+}
+button:hover{
+    background: hsla(0,0%,100%,.1)
+}
+.more{
+    background-color: rgb(33, 31, 31);
+    box-shadow: 0 4px 12px rgb(29 33 55 / 25%);
+}
